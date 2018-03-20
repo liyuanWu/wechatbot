@@ -1,0 +1,23 @@
+{
+  "name": "wechatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyuanWu/wechatbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liyuanWu/wechatbot/issues"
+  },
+  "homepage": "https://github.com/liyuanWu/wechatbot#readme",
+  "dependencies": {
+    "qrcode-terminal": "^0.11.0",
+    "wechaty": "^0.13.86"
+  }
+}
