@@ -1,3 +1,5 @@
 const main = require('./main.js');
 const eventbus = require('./eventbus.js').eventbus;
-eventbus.emit('error', new Error('whoops!'));
+eventbus.on("bot.ready", () => {
+    eventbus.emit('bot.send', 'test message', {room: 'Story Room - 01'});
+});
