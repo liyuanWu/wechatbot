@@ -1,2 +1,1 @@
-mybot = require("mybot.js");
-mybot.start();
+mybot = require("./mybot.js");
